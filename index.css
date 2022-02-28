@@ -121,4 +121,8 @@ a#button{
         margin:2%;
         padding:2%;
     }
+    body{
+        width:auto;
+        height: auto;
+    }
   }
