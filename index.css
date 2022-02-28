@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Relaxing-Images-HD.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    width:100%;
+    text-align: center;
+}
+
+div,h1{
+
+    color:#FFE66D;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Lobster', 'cursive';
+    font-family: 'Shizuru', 'cursive';
+    text-shadow: 3px 3px 20px red,-2px 1px 30px #343434;
+    
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding:2%;
+    color: #FFE66D;
+
+
+}
+#first{
+    border-left:0;
+}
+#last{
+    border-right:0;
+}
+
+nav,ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    margin:0 0 2% 0;
+}
+
+
+nav a{
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #6CA6C1;
+    border-right: solid #FFE66D;
+    width: 100%;
+    text-decoration: none;
+    
+
+}
+
+
+a:hover{
+    
+    color:#FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;}
+a:link{
+    color:blue;
+}
+a:active{
+    color:blue;
+}
+a:visited{
+    color:blue;
+}
+
+video{
+    width: 80%;
+    height:600px;
+    margin:2%;
+}
+
+
+
+
+div#button{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+button{
+    width: 200%;
+    height: 70%;
+    font-size: 2rem;
+}
+
+
+
+.page{
+    text-align: center;
+}
+
+a#button{
+
+    text-decoration: none;
+    padding:2%;
+
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    iframe{
+        max-width: 600px;
+        max-height: 650px;
+        margin:2%;
+        padding:2%;
+    }
+  }
